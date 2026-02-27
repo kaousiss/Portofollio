@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <img src="../Pic/windows-logo-glowing-windows-10x-illuminated-microsoft-5k-3840x2160-2946.jpg"  alt="Fond d'écran" class="image-fond">
+
+  <input type="checkbox" id="toggle-notif" class="radio-cache">
+  <div class="explosion-lumiere"></div>
+  
+  <label for="toggle-notif" class="notif-ios">
+    <div class="notif-icone">👋</div>
+    <div class="notif-texte">
+      <strong>Salutation</strong>
+      <span>Bienvenue sur mon portofolio</span>
+    </div>
+  </label>
+
+  <input type="radio" name="navigation" id="nav-accueil" class="radio-cache" checked>
+  <input type="radio" name="navigation" id="nav-projets" class="radio-cache">
+  <input type="radio" name="navigation" id="nav-profil" class="radio-cache">
+  <input type="radio" name="navigation" id="nav-cv" class="radio-cache">
+  <input type="radio" name="navigation" id="nav-avis" class="radio-cache">
+
+  <nav class="menu-verre">
+    <div class="curseur-glissant"></div>
+    <label for="nav-accueil">Accueil</label>
+    <label for="nav-cv">CV</label>
+    <label for="nav-projets">Projets</label>
+    <label for="nav-profil">Competences</label>
+    <label for="nav-avis">Avis</label>
+  </nav>
+
+  <div class="texte-accueil" style="margin-top: 6%;">
+    <h1>Mon <strong>Portofolio</strong></h1>
+    <p>Étudiant en Analyse - Programmation 2 à TechnoLAB-ISTA et futur ingénieur.
+      Passionné par l'architecture système, la robotique, l'aeronomie, 
+      la création de logiciels complexes et des activités STEM.
+    </p>
+  </div>
+  
+    <div class="section-verre" id="sec-cv">
+      <h2>Curriculum Vitae</h2>
+      <div class="grille-projets">
+        <div class="carte-projet">
+          <h3>Informations Personnelles</h3>
+          <p style="color: rgba(255,255,255,0.8); line-height: 1.8; font-size: 1.1em;">
+            <span style="font-weight: bolder;">Nom :</span> <span style="text-transform: capitalize;">SISSOKO</span><br>
+            <span style="font-weight: bolder;">Prenom :</span> Idrissa Kaou<br>
+            <span style="font-weight: bolder;">Date de Naissance :</span> <time datetime=""></time><br>
+            <span style="font-weight: bolder;">Lieu de Nassance :</span> Bamako<br>
+            <span style="font-weight: bolder;">Profil :</span> Etudiant en Analyse Programmation<br>
+            <span style="font-weight: bolder;">Objectif :</span> Devenir ingénieur spécialisé en robotique et aérospatiale.
+          </p>
+        </div>
+        <div class="carte-projet">
+          <h3>Contact</h3>
+          <p style="color: rgba(255,255,255,0.8); line-height: 1.8; font-size: 1.1em;" id="contact">
+            <span style="font-weight: bolder;">Email :</span> <a href="mailto:kaousiss@gmail.com">kaousiss@icloud.com</a><br>
+            <span style="font-weight: bolder;">Email <small>secondaire</small> :</span> <a href="mailto:worldcreatman@gmail.com">worlcreateman@gmail.com</a><br>
+            <span style="font-weight: bolder;">Telephone :</span> <a href="tel:+22390907793">+223 90 90 77 93</a><br>
+            <span style="font-weight: bolder;">GitHub :</span> <a href="https://github.com/kaousiss" target="_blank">https://github.com/kaousiss</a><br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <div class="section-verre" id="sec-projets">
+    <h2>Mes Projets Récents</h2>
+    <div class="grille-projets">
+      <div class="carte-projet">
+        <h3>Crazy Science League</h3>
+        <p class="description">
+          Un jeu vidéo compétitif orienté STEM avec un système de classement unique.
+          Logique algorithmique poussée et architecture robuste pour supporter les mécaniques de ranking.
+        </p>
+      </div>
+      <div class="carte-projet">
+        <h3>DevOS - SpaceOS</h3>
+        <p class="description">
+          Création d'un système d'exploitation codé de zéro avec ASM et C.
+          Un véritable défi d'ingénierie logicielle et de gestion de la mémoire.
+        </p>
+      </div>
+      <div class="carte-projet">
+        <h3>Creation d'un Langage de programmation</h3>
+        <p class="description">Création d'un système d'exploitation hybride 32/64-bit codé de zéro. Un véritable défi d'ingénierie logicielle et de gestion de la mémoire.</p>
+      </div>
+      <div class="carte-projet">
+        <h3>AUtomatisme</h3>
+        <p class="description">Création de robot avec une IA de detection et de reconnaissance de formes pour minage et recherche de ressources.</p>
+      </div>
+      <div class="carte-projet">
+        <h3>Plateforme Interactive Java</h3>
+        <p class="description">
+          Site sur-mesure pour réviser les concepts de la 
+          programmation orientée objet (polymorphisme, classes, gestion des exceptions).
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-verre" id="sec-profil">
+    <h2>Competences</h2>
+    <div class="liste-competences">
+      <div class="competence">
+        <label for="bar">Java / POO (75%)</label>
+        <input name="bar" type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Administration Linux & Réseaux (50%)</label>
+        <input type="range" min="0" max="100" value="50" disabled style="--val: 50%;" class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Maintenance Hardware & PC (75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Cobol (25%)</label>
+        <input type="range" min="0" max="100" value="25" style="--val: 25%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Python(75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Fortran (50%)</label>
+        <input type="range" min="0" max="100" value="50" style="--val: 50%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">C/C++ (75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Rust (25%)</label>
+        <input type="range" min="0" max="100" value="25" style="--val: 25%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Assembler (75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Lua (50%)</label>
+        <input type="range" min="0" max="100" value="50" style="--val: 50%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">HTML/CSS (75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">Go (25%)</label>
+        <input type="range" min="0" max="100" value="25" style="--val: 25%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">PHP (75%)</label>
+        <input type="range" min="0" max="100" value="75" style="--val: 75%;" disabled class="range-verre">
+      </div>
+      <div class="competence">
+        <label for="">JavaScript (50%)</label>
+        <input type="range" min="0" max="100" value="50" style="--val: 50%;" disabled class="range-verre">
+      </div>
+      <div class="competence"><label for="">Pentesting (50%)</label>
+        <input type="range" min="0" max="100" value="50" style="--val: 50%;" disabled class="range-verre">
+      </div>
+    </div>
+    <hr style="width: 20%; opacity: 0.3; border: 1px solid;margin: 15px;">
+    <h4>
+      Niveaux : <br>
+      - 25% : Débutant <br>
+      - 50% :  Connaissance des Bases<br>
+      - 75% : intermediaire<br>
+      - 100%: Expert<br>
+    </h4>
+  </div>
+
+  <div class="section-verre" id="sec-avis">
+    <h2>Avis Utilisateurs</h2>
+    <div class="grille-projets">
+      <div class="carte-projet">
+        <h3 style="color: #ffcc00;">Alex ★★★★★</h3>
+        <p class="description">"Les concepts de POO sont devenus hyper clairs pour notre groupe grâce à ta plateforme Java !"</p>
+      </div>
+      <div class="carte-projet">
+        <h3 style="color: #ffcc00;">Marc ★★★★★</h3>
+        <p class="description">"Super boulot sur l'installation de notre serveur Linux et la configuration réseau du club. Tout tourne parfaitement."</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
