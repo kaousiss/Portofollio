@@ -2,6 +2,7 @@
 
 <Auteur                : Idrissa Kaou Sissoko/ >
 <Date_de_creation      : 20-02-2026>
+<Date_de_publication   : 20-02-2026>
 <Date_de_modification  : 27-02-2026>
 
 >Tout droits reservés (c)
