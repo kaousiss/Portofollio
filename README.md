@@ -6,7 +6,10 @@
 
 >Tout droits reservés (c)
 >Sous license MIT
+
 Allez dans la partie src pour trouver les codes html et css
+
+en cas de modifiaction utiliser vs code pour le codage qui est le seul outil dont vous aurez besoin ou le bloc note qui peut tout à fait contenir du code
 
 l'interaction est gerer par le css avec display et checked
 
